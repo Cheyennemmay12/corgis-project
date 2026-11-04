@@ -1,0 +1,46 @@
+body {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  margin: 16px 0;
+}
+
+nav a {
+  margin-right: 12px;
+}
+
+section, figure {
+  margin: 24px 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.home-hero-image, .page-hero-photo img, .gallery-item img {
+  width: 300px;
+}
+
+label {
+  display: block;
+}
+
+input, select, textarea {
+  margin: 4px 0 12px;
+}
+
+textarea {
+  display: block;
+}
+
+.skip-link {
+  position: absolute;
+  top: -50px;
+}
+
+.skip-link:focus {
+  top: 8px;
+}
